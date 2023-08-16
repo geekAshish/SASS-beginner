@@ -1,0 +1,17 @@
+{
+  "name": "scss-playground",
+  "version": "1.0.0",
+  "description": "just for fun",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel"
+  },
+  "author": "Ashish Kushwaha",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.9.3"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3"
+  }
+}
