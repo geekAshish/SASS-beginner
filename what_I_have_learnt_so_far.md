@@ -99,7 +99,9 @@ propertyName: funcName(para-value)
 little bit similar to the function
 But mixin should be use for define style
 
-It use for repetative code
+1. It use for repetative code
+2. Switching between theme
+3. media Query
 
 @mixin name($para) {
     display: flex;
@@ -119,18 +121,42 @@ Best use case of @mixin is switching between light-dark mode
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # @if $booleanValue{}
+
+
+
+
+# @content;
+
+
+
+
+# @extend className;
+extend inherites all the property from the given clasName
+
+.class1 {all the propery}
+
+.class2 {
+    @extend .class1
+
+    class2 code
+}
+
+
+
+
+
+
+
+
+
+
+
+# Math Operations
+Sass has a handful of standard math operators
+like +, -, *, math.div(), and %.
+
+40% - 12%        --  right
+40% - 20px       --  wrong
+
+
