@@ -1,7 +1,10 @@
 // variables
 $color-primary: rgb(255, 128, 185);
 $color-secondary: rgb(171, 255, 223);
+$error: #d32727;
+$info: #f6c31c;
 $text-color: rgb(255, 255, 255);
+
 
 // maps
 $font-weight: (
@@ -10,4 +13,43 @@ $font-weight: (
     "bold": 900
 );
 
+$colors: (
+    "primary": $color-primary,
+    "secondary": rgb(43, 255, 0),
+    "purple": rgb(128, 0, 255),
+    "red": $error,
+    "yellow": $info,
+    "pink": rgb(255, 0, 98),
+    "black": black,
+    "white": white,
+);
+
+
+
+
+
+// Spacing
+$base-padding: .75rem;
+$base-margin: .75rem;
+
+
+
+
+// Borders
+$base-border-thickness: 1px;
+$base-border-radius: 20px;
+
+
+
+
+// font sizes
+$base-font-size: 1rem;
+$font-size-sm: $base-font-size * 0.75;
+$font-size-lg: $base-font-size * 1.5;
+$font-size-xl: $base-font-size * 2;
+$font-size-xxl: $base-font-size * 3;
+
+
+
+// mobile
 $mobile-size: 800px;

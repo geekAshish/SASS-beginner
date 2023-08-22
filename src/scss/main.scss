@@ -1,7 +1,7 @@
 @import './reset';
 @import './variables';
-
-
+@import './components/card';
+@import './colors';
 
 
 // function
@@ -47,6 +47,7 @@ body {
     background-color: $color-secondary;
 }
 
+// Nesting
 .container {
     padding: 0 3em;
 
@@ -86,3 +87,4 @@ body {
 .light {
     @include theme($light-theme: true);
 }
+

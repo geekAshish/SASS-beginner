@@ -1,0 +1,25 @@
+@use 'sass:math'; // there are other module as well, apart form math
+
+.cart-container {
+    box-shadow: 5px 5px 10px 0px rgb(93, 162, 154);
+    margin: $base-margin;
+    border-radius: math.div($base-border-radius, 4);
+
+    .cart {
+        padding: $base-padding;
+
+        a {
+            color: black;
+            text-decoration: underline;
+            font-size: $font-size-lg;
+        }
+    }
+}
+
+.btn {
+    background-color: map-get($colors, 'purple');
+    padding: $base-padding;
+}
+
+@debug math.floor(5.8);
+@debug math.max(2px, 10px, 15px, 4px);
