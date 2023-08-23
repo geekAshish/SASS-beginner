@@ -96,7 +96,7 @@ map-merge(map-name, ("key", vlaue))
 
 
 # Functions
-Function should use for calculate value, return vlaue;
+Function should use for calculate value & return vlaue;
 
 @function funcName($para-name) {
     @return anything you want to use
@@ -107,7 +107,7 @@ use it like
 propertyName: funcName(para-value)
 
 
-
+build-in function lighten()
 
 
 
@@ -130,7 +130,7 @@ But mixin should be use for define style
 2. Switching between theme
 3. media Query
 
-@mixin name($para) {
+@mixin name($para: defaultValue) {
     display: flex;
     align-item: center;
     flex-direction: $para;
@@ -138,6 +138,7 @@ But mixin should be use for define style
 
 .className1: {@include name(row)}
 .className2: {@include name(column)}
+.className2: {@include name} --> It's gonna take default value
 
 
 Best use case of @mixin is switching between light-dark mode
