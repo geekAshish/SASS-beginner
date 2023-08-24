@@ -91,6 +91,12 @@ map-merge(map-name, ("key", vlaue))
 
 
 
+# Lists
+$variable: value1, value2, value3, value4, value5;
+- and can loop over it
+
+
+
 
 
 
@@ -230,6 +236,10 @@ math.div(value, 5)  --> vlaue/5
 * Applications
 1. loop through the map and create classes based on the key
 
+
+
+
+# Custom Utilities Classes
 
 
 

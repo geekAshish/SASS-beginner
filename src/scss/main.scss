@@ -1,11 +1,26 @@
+// Variables & function
 @import './function';
-@import './reset';
 @import './variables';
 
+// CSS reset
+@import './reset';
+
+// Base & layout
+@import './breakpoints';
+@import './grid';
+
+
+// colors
+@import './colors';
+
+
+// Components (card, button, navbar)
 @import './components/card';
 @import './components/button';
 
-@import './colors';
+
+// Utilities Classes (margin, padding, opacity)
+@import './utilities';
 
 
 // function
