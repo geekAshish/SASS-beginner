@@ -17,10 +17,24 @@
 // Components (card, button, navbar)
 @import './components/card';
 @import './components/button';
+@import './components/nav';
 
 
 // Utilities Classes (margin, padding, opacity)
 @import './utilities';
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // function
@@ -107,3 +121,9 @@ body {
     @include theme($light-theme: true);
 }
 
+
+
+#image-cover {
+    width: -webkit-fill-available;
+    aspect-ratio: 1;
+}

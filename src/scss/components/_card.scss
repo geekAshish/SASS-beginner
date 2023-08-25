@@ -1,7 +1,7 @@
 @use 'sass:math'; // there are other module as well, apart form math
 
 .cart-container {
-    box-shadow: 5px 5px 10px 0px rgb(93, 162, 154);
+    box-shadow: $base-box-shadow;
     margin: $base-margin;
     border-radius: math.div($base-border-radius, 4);
 

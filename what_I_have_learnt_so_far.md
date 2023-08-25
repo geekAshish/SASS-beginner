@@ -170,14 +170,21 @@ Best use case of @mixin is switching between light-dark mode
 
 
 # @extend className;
-extend inherites all the property from the given clasName
+A bit similler to the mixin, but it dosen't take argument
+and in our main css file it convert it in (,) seprated clasName: .class1, .class2
 
+@extend .clasName; inherites all the property from the given clasName
+
+and if you don't want to create extra className use (%) instead of (.)
+
+%className
 .class1 {all the propery}
 
 .class2 {
-    @extend .class1
+    @extend .class1;
+    @exted %className;
 
-    class2 code
+    class2 style
 }
 
 
@@ -243,3 +250,17 @@ math.div(value, 5)  --> vlaue/5
 
 
 
+
+
+# How to use this CSS library in the future project, and customize
+how to change the variables, 
+
+so ya, first of all create a seprate scss/index.scss file
+connect it to the html file
+
+and in this your scss file, @import libray
+and in your library the variable value you want to change use !default;
+
+like: $variable: vlaue !default;
+
+make changes before @import main;

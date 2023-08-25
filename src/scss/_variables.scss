@@ -1,9 +1,9 @@
 // variables
-$color-primary: rgb(255, 128, 185);
-$color-secondary: rgb(171, 255, 223);
-$error: #d32727;
-$info: #f6c31c;
-$text-color: rgb(255, 255, 255);
+$color-primary: rgb(255, 128, 185) !default;
+$color-secondary: rgb(171, 255, 223) !default;
+$error: #d32727 !default;
+$info: #f6c31c !default;
+$text-color: rgb(255, 255, 255) !default;
 
 
 // maps
@@ -29,27 +29,31 @@ $colors: (
 
 
 // Spacing
-$base-padding: .75rem;
-$base-margin: .75rem;
+$base-padding: .75rem !default;
+$base-margin: .75rem !default;
 
 
 
 
 // Borders
-$base-border-thickness: 1px;
-$base-border-radius: 20px;
+$base-border-thickness: 1px !default;
+$base-border-radius: 20px !default;
+
+
+// Shadow
+$base-box-shadow: 5px 5px 10px 0px rgb(93, 162, 154) !default;
 
 
 
 
 // font sizes
 $base-font-size: 1rem;
-$font-size-sm: $base-font-size * 0.75;
-$font-size-lg: $base-font-size * 1.5;
-$font-size-xl: $base-font-size * 2;
-$font-size-xxl: $base-font-size * 3;
+$font-size-sm: $base-font-size * 0.75 !default;
+$font-size-lg: $base-font-size * 1.5 !default;
+$font-size-xl: $base-font-size * 2 !default;
+$font-size-xxl: $base-font-size * 3 !default;
 
 
 
 // mobile
-$mobile-size: 800px;
+$mobile-size: 800px !default;
